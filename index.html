@@ -2,10 +2,22 @@
 <html lang="en">
   <head>
     <title>TropicalMC</title>
+    <meta
+      name="description"
+      content="TropicalMC is a minecraft server project, which contains a lot of fun PVP and PVE game modes, that keeps you entertained for hours! Join for free!"
+    />
     <meta property="og:title" content="TropicalMC" />
+    <meta
+      property="og:description"
+      content="TropicalMC is a minecraft server project, which contains a lot of fun PVP and PVE game modes, that keeps you entertained for hours! Join for free!"
+    />
+    <meta
+      property="og:image"
+      content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/5c9ccf50-8c90-43b0-8b46-a324ed0d9ea4/2e8d1a16-396e-40cc-aa1e-6bece4531874?org_if_sml=1"
+    />
 
     <style data-tag="reset-style-sheet">
-      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6 {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
     </style>
     <style data-tag="default-style-sheet">
       html {
@@ -27,7 +39,7 @@
     </style>
     <link
       rel="shortcut icon"
-      href="/playground_assets/hall_icon.jpg"
+      href="public/playground_assets/hall_icon.jpg"
       type="icon/png"
       sizes="32x32"
     />
@@ -48,32 +60,94 @@
       <link href="./home.css" rel="stylesheet" />
 
       <div class="home-container">
-        <div class="home-container1">
-          <div class="home-container2">
-            <span class="home-text">
-              <span>TROPICAL</span>
-              <span class="home-text2">MC</span>
-            </span>
-            <button type="button" class="home-button button">
-              <span class="home-text3">
-                <span>PLAY NOW</span>
-                <br />
-              </span>
-            </button>
+        <div class="home-main">
+          <span id="serverip" class="home-text">topicalmc.uk</span>
+          <div class="home-background">
             <img
               alt="image"
-              src="public/playground_assets/icons8-discord-48-200h.png"
-              class="home-image button"
+              src="public/playground_assets/neues%20projekt%5B1%5D-1500w.png"
+              class="home-image"
             />
+            <video
+              src="public/playground_assets/minecraft_%201.19.2%20-%20singleplayer%202022-10-30%2020-09-04_20.16.44.mp4"
+              loop=""
+              muted=""
+              poster="public/playground_assets/out-filme%20%26%20tv%2030.10.2022%2020_33_52-7500w.png"
+              autoplay=""
+              class="home-video"
+            ></video>
+          </div>
+          <div class="home-slogan">
+            <span class="home-text01">
+              <span>TROPICALMC,</span>
+              <br />
+              <span>A OASIS FULL OF GAMEMODES</span>
+            </span>
+          </div>
+          <div class="home-container1">
+            <span class="home-text05">
+              <span>ABOUT US</span>
+              <br />
+            </span>
+            <span class="home-text08">
+              <span>
+                TropicalMC is a Minecraft server with a variety of gamemodes to
+                keep you entertained. Whether you're in the mood for some
+                competitive
+              </span>
+              <span class="home-text10">PvP action</span>
+              <span>, or just want to relax and play our</span>
+              <span class="home-text12">fantasy mode</span>
+              <span>
+                , we've got you covered. Our friendly community is always happy
+                to help new players, so come join us and see what all the hype
+                is about!
+              </span>
+            </span>
+            <div class="home-container2">
+              <button
+                type="button"
+                onclick="copyClip('serverip')"
+                class="home-playnow button"
+              >
+                <span class="home-text14">
+                  <span>PLAY NOW</span>
+                  <br />
+                </span>
+              </button>
+              <button type="button" class="home-learnmore button">
+                <span class="home-text17">
+                  <span>LEARN MORE</span>
+                  <br />
+                </span>
+              </button>
+              <button type="button" class="home-support button">
+                <span class="home-text20">SUPPORT</span>
+              </button>
+            </div>
+            <a
+              href="https://discord.io/tropical-mc"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="home-endtext"
+            >
+              <span>2022 TROPICALMC ✦</span>
+              <span class="home-text22">discord.io/tropical-mc</span>
+              <br />
+            </a>
           </div>
         </div>
-        <img
-          alt="image"
-          src="public/playground_assets/untitled%402x-1600w.png"
-          loading="eager"
-          class="home-image1"
-        />
       </div>
     </div>
+    <script type="text/javascript">
+      function copyClip(id){
+          var r = document.createRange();
+          r.selectNode(document.getElementById(id));
+          window.getSelection().removeAllRanges();
+          window.getSelection().addRange(r);
+          document.execCommand('copy');
+          window.getSelection().removeAllRanges();
+      }
+    </script>
   </body>
 </html>
