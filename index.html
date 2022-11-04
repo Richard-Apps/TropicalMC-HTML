@@ -108,7 +108,7 @@
               <div class="home-container03">
                 <button
                   type="button"
-                  onclick="copyClip('serverip')"
+                  onclick="copyClip()"
                   class="home-playnow button"
                 >
                   <span class="home-text14">
@@ -139,66 +139,108 @@
             </div>
           </div>
           <div id="learnmore" class="home-learnmore1">
-            <h1 class="home-text24">
-              <span>POPULAR + UNIQUE GAMEMODES</span>
-              <br />
-            </h1>
-            <span class="home-text27">
-              We offer main-stream gamemodes, but also one's you'll only find
-              here! We have something for everyone!
-            </span>
             <div class="home-container04">
-              <div class="home-container05">
-                <div class="home-container06"></div>
-                <span class="home-text28">
+              <div class="home-gamemodes">
+                <h1 class="home-text24">
+                  <span>POPULAR + UNIQUE GAMEMODES</span>
+                  <br />
+                </h1>
+                <span class="home-text27">
+                  We offer main-stream gamemodes, but also one's you'll only
+                  find here! We have something for everyone!
+                </span>
+                <div class="home-container05">
+                  <div class="home-container06">
+                    <div class="home-container07"></div>
+                    <span class="home-text28">
+                      <span>
+                        Protect your team's bed against others! Respawns are
+                        activated only for those with a bed left.
+                      </span>
+                      <br />
+                    </span>
+                    <span class="home-title">BEDWARS</span>
+                  </div>
+                  <div class="home-container08">
+                    <div class="home-container09"></div>
+                    <span class="home-text31">Mine and PvP!</span>
+                    <span class="home-title1">
+                      <span>CAVE PVP</span>
+                      <br />
+                    </span>
+                  </div>
+                  <div class="home-container10">
+                    <div class="home-container11"></div>
+                    <span class="home-text34">
+                      Battle against monsters and finish quests in a big
+                      fully-detailed open world adventure!
+                    </span>
+                    <span class="home-title2">FANTASY</span>
+                  </div>
+                </div>
+                <span class="home-text35">
+                  <span class="home-text36">More gamemodes</span>
+                  <span>are already under development!</span>
+                  <br />
+                </span>
+              </div>
+              <a href="#main" class="home-scrolltop button">
+                <span class="home-text39">
+                  <span>BACK TO TOP</span>
+                  <br />
+                </span>
+              </a>
+              <div class="home-media">
+                <div class="home-container12">
+                  <iframe
+                    src="https://www.youtube.com/embed/Hd5Q8SWMD80"
+                    allowfullscreen=""
+                    class="home-iframe"
+                  ></iframe>
+                  <img
+                    alt="image"
+                    src="public/playground_assets/out-2022-07-09_23.45.19-400h.png"
+                    class="home-image1"
+                  />
+                </div>
+                <span class="home-text42">
                   <span>
-                    Protect your team's bed against others! Respawns are
-                    activated only for those with a bed left.
+                    To get updates early and engage with our community, join our
+                    official discord server.
                   </span>
                   <br />
                 </span>
-                <span class="home-title">BEDWARS</span>
-              </div>
-              <div class="home-container07">
-                <div class="home-container08"></div>
-                <span class="home-text31">Mine and PvP!</span>
-                <span class="home-title1">
-                  <span>CAVE PVP</span>
-                  <br />
-                </span>
-              </div>
-              <div class="home-container09">
-                <div class="home-container10"></div>
-                <span class="home-text34">
-                  Battle against monsters and finish quests in a big
-                  fully-detailed open world adventure!
-                </span>
-                <span class="home-title2">FANTASY</span>
+                <a
+                  href="https://discord.io/tropical-mc"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="home-discord button"
+                >
+                  <img
+                    alt="image"
+                    src="public/playground_assets/20-200938_discord-png-200h.png"
+                    class="home-image2"
+                  />
+                  <span class="home-text45">
+                    <span>JOIN OUR DISCORD</span>
+                    <br />
+                  </span>
+                </a>
               </div>
             </div>
-            <span class="home-text35">
-              <span class="home-text36">More gamemodes</span>
-              <span>are already under development!</span>
-              <br />
-            </span>
-            <button class="button">
-              <a href="#main" class="home-link">
-                <span>Back to Top</span>
-                <br />
-              </a>
-            </button>
           </div>
         </div>
       </div>
     </div>
     <script type="text/javascript">
-      function copyClip(id){
+      function copyClip(){
           var r = document.createRange();
-          r.selectNode(document.getElementById(id));
+          r.selectNode(serverip);
           window.getSelection().removeAllRanges();
           window.getSelection().addRange(r);
           document.execCommand('copy');
           window.getSelection().removeAllRanges();
+          console.log("Hello world!");
       }
     </script>
   </body>

@@ -74,6 +74,7 @@
 }
 .teleport-show {
   display: flex !important;
+  transform: none !important;
 }
 .content {
   font-size: 16px;
