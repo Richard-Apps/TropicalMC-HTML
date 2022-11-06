@@ -1,0 +1,99 @@
+.component-container {
+  gap: var(--dl-space-space-unit);
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-top: 5px;
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  border-radius: 10px;
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: 5px;
+  justify-content: center;
+  background-color: #78e088;
+}
+.component-image {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-round);
+}
+.component-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.component-text {
+  color: #000000;
+  font-size: 18px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 700;
+}
+.component-text1 {
+  color: #000000;
+  font-size: 12px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 300;
+}
+.component-root-class-name {
+  width: auto;
+  background-color: #f7986f;
+}
+.component-root-class-name1 {
+  background-color: #b3b3b3;
+}
+.component-root-class-name2 {
+  width: auto;
+  background-color: #f7986f;
+}
+.component-root-class-name3 {
+  width: auto;
+  background-color: #f76f6f;
+}
+.component-root-class-name4 {
+  background-color: #a7fd85;
+}
+.component-root-class-name5 {
+  background-color: #fd8587;
+}
+.component-root-class-name6 {
+  background-color: #859dfd;
+}
+.component-root-class-name7 {
+  background-color: #859dfd;
+}
+
+.component-root-class-name9 {
+  background-color: #99bb9e;
+}
+
+.component-root-class-name11 {
+  background-color: #58a062;
+}
+.component-root-class-name12 {
+  background-color: #6c796e;
+}
+.component-root-class-name13 {
+  background-color: #6c796e;
+}
+.component-root-class-name14 {
+  background-color: #6fc2f7;
+}
+.component-root-class-name15 {
+  background-color: #6fc2f7;
+}
+.component-root-class-name16 {
+  background-color: #aff76f;
+}
+.component-root-class-name17 {
+  background-color: #aff76f;
+}
+.component-root-class-name18 {
+  background-color: #aff76f;
+}
