@@ -1,0 +1,102 @@
+.teamcard-container {
+  gap: var(--dl-space-space-unit);
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-top: 5px;
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  border-radius: 10px;
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: 5px;
+  justify-content: center;
+  background-color: #78e088;
+}
+.teamcard-image {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-round);
+}
+.teamcard-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.teamcard-text {
+  color: #000000;
+  font-size: 18px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 700;
+}
+.teamcard-text1 {
+  color: #000000;
+  font-size: 12px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 300;
+}
+.teamcard-root-class-name {
+  width: auto;
+  background-color: #f7986f;
+}
+.teamcard-root-class-name1 {
+  background-color: #b3b3b3;
+}
+.teamcard-root-class-name2 {
+  width: auto;
+  background-color: #f7986f;
+}
+.teamcard-root-class-name3 {
+  width: auto;
+  background-color: #f76f6f;
+}
+.teamcard-root-class-name4 {
+  background-color: #a7fd85;
+}
+.teamcard-root-class-name5 {
+  background-color: #fd8587;
+}
+.teamcard-root-class-name6 {
+  background-color: #859dfd;
+}
+.teamcard-root-class-name7 {
+  background-color: #859dfd;
+}
+
+.teamcard-root-class-name9 {
+  background-color: #99bb9e;
+}
+
+.teamcard-root-class-name11 {
+  background-color: #58a062;
+}
+.teamcard-root-class-name12 {
+  background-color: #6c796e;
+}
+.teamcard-root-class-name13 {
+  background-color: #6c796e;
+}
+.teamcard-root-class-name14 {
+  background-color: #6fc2f7;
+}
+.teamcard-root-class-name15 {
+  background-color: #6fc2f7;
+}
+.teamcard-root-class-name16 {
+  background-color: #aff76f;
+}
+.teamcard-root-class-name17 {
+  background-color: #aff76f;
+}
+.teamcard-root-class-name18 {
+  background-color: #aff76f;
+}
+.teamcard-root-class-name19 {
+  background-color: #aff76f;
+}
