@@ -74,10 +74,11 @@
                 class="home-image"
               />
               <video
-                src="public/playground_assets/minecraft_%201.19.2%20-%20singleplayer%202022-10-30%2020-09-04_20.16.44.mp4"
+                id="bgvideo"
+                src="public/playground_assets/minecraft_%201.19.2%20-%20singleplayer%202022-10-30%2020-09-04_20.16.44_22.22.7.mp4"
                 loop=""
                 muted=""
-                poster="public/playground_assets/out-filme%20%26%20tv%2030.10.2022%2020_33_52-7500w.png"
+                poster="public/playground_assets/out-filme%20%26%20tv%2030.10.2022%2020_33_52-1500h.png"
                 autoplay=""
                 class="home-video"
               ></video>
@@ -121,13 +122,21 @@
                     <br />
                   </span>
                 </button>
-                <a href="#learnmore" class="home-learnmore button">
+                <a
+                  href="#learnmore"
+                  onclick="backgroundBlurAnimation()"
+                  class="home-learnmore button"
+                >
                   <span class="home-text17">
                     <span>LEARN MORE</span>
                     <br />
                   </span>
                 </a>
-                <a href="#ourteam" class="home-ourteam button">
+                <a
+                  href="#ourteam"
+                  onclick="backgroundBlurAnimation()"
+                  class="home-ourteam button"
+                >
                   <span class="home-text20">
                     <span>OUR TEAM</span>
                     <br />
@@ -236,10 +245,11 @@
                 </a>
               </div>
             </div>
+            <div class="home-container13"></div>
           </div>
           <div id="ourteam" class="home-ourteam1">
-            <div class="home-container13">
-              <div class="home-container14">
+            <div class="home-container14">
+              <div class="home-container15">
                 <h1 class="home-text50">
                   <span>OUR TEAM</span>
                   <br />
@@ -428,6 +438,9 @@
       }
       function playnowBack() {
       document.getElementById("playnowtext").textContent="PLAY NOW";
+      }
+      function backgroundBlurAnimation() {
+          document.getElementById("bgvideo").style.animation="backgroundBlur 1s ease-in-out 1";
       }
     </script>
   </body>

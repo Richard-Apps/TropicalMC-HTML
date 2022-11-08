@@ -123,6 +123,7 @@
   position: absolute;
   align-items: flex-start;
   flex-direction: column;
+  background-color: #000000;
 }
 .home-main {
   top: 0px;
@@ -155,7 +156,7 @@
   height: 100%;
   display: flex;
   z-index: 100;
-  position: absolute;
+  position: fixed;
   align-items: flex-start;
   flex-direction: column;
 }
@@ -171,6 +172,7 @@
 }
 .home-video {
   width: 100%;
+  filter: blur(5px) brightness(0.8) contrast(1.1);
   height: auto;
   z-index: 1;
 }
@@ -401,7 +403,6 @@
   padding-left: 0%;
   flex-direction: column;
   justify-content: flex-start;
-  background-color: #000000;
 }
 .home-container04 {
   gap: 0;
@@ -419,6 +420,7 @@
   height: 50%;
   display: flex;
   padding: 3%;
+  z-index: 100;
   align-items: center;
   flex-direction: column;
   justify-content: center;
@@ -660,6 +662,7 @@
   bottom: 0px;
   margin: var(--dl-space-space-oneandhalfunits);
   display: flex;
+  z-index: 101;
   position: absolute;
   font-size: 24px;
   align-self: center;
@@ -697,6 +700,7 @@
   height: 50%;
   display: flex;
   padding: 3%;
+  z-index: 100;
   align-self: center;
   align-items: flex-start;
   flex-direction: column;
@@ -784,6 +788,21 @@
   font-size: 12px;
   line-height: 1.75;
 }
+.home-container13 {
+  flex: 0 0 auto;
+  left: 0px;
+  width: 100%;
+  bottom: 0px;
+  filter: blur(8px) brightness(0.7);
+  height: 100%;
+  display: none;
+  z-index: 10;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url("public/playground_assets/out-filme%20%26%20tv%2030.10.2022%2020_33_52-1500h.png");
+}
 .home-ourteam1 {
   top: 200%;
   flex: 0 0 auto;
@@ -799,9 +818,8 @@
   padding-left: 0%;
   flex-direction: column;
   justify-content: flex-start;
-  background-color: #000000;
 }
-.home-container13 {
+.home-container14 {
   gap: 0;
   flex: 0 0 auto;
   width: 100%;
@@ -811,9 +829,8 @@
   padding-top: 0%;
   flex-direction: column;
   justify-content: center;
-  background-color: #000000;
 }
-.home-container14 {
+.home-container15 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
